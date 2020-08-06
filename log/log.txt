@@ -1,0 +1,136 @@
+[2020-08-05 10:46:57] INFO [<module>: config.py, 30] hello
+[2020-08-05 10:49:44] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 10:49:45] INFO [send_email: sendemail.py, 25] 邮件发送完成！
+[2020-08-05 10:49:45] INFO [<module>: run_case.py, 16] ================================== 测试结束 ==================================
+[2020-08-05 10:50:09] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 10:50:10] INFO [send_email: sendemail.py, 25] 邮件发送完成！
+[2020-08-05 10:50:10] INFO [<module>: run_case.py, 16] ================================== 测试结束 ==================================
+[2020-08-05 11:30:05] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:30:43] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:35:00] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:35:02] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:35:02] INFO [<module>: run_case.py, 29] ================================== 测试结束 ==================================
+[2020-08-05 11:40:12] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:40:14] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:40:14] INFO [<module>: run_case.py, 29] ================================== 测试结束 ==================================
+[2020-08-05 11:41:05] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:41:07] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:41:07] INFO [<module>: run_case.py, 29] ================================== 测试结束 ==================================
+[2020-08-05 11:42:37] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:42:39] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:42:39] INFO [<module>: run_case.py, 32] ================================== 测试结束 ==================================
+[2020-08-05 11:43:54] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:43:55] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:43:55] INFO [<module>: run_case.py, 33] ================================== 测试结束 ==================================
+[2020-08-05 11:46:45] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:46:46] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:46:46] INFO [<module>: run_case.py, 33] ================================== 测试结束 ==================================
+[2020-08-05 11:48:01] INFO [<module>: run_case.py, 8] ================================== 测试开始 ==================================
+[2020-08-05 11:48:03] INFO [send_email: sendemail.py, 37] 邮件发送完成！
+[2020-08-05 11:48:03] INFO [<module>: run_case.py, 33] ================================== 测试结束 ==================================
+[2020-08-05 11:50:02] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 11:50:39] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 11:51:48] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 11:53:02] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 11:53:37] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 11:55:18] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 11:55:20] INFO [send_email: send_email.py, 37] 邮件发送完成！
+[2020-08-05 11:55:20] INFO [<module>: run_case.py, 14] ================================== 测试结束 ==================================
+[2020-08-05 14:57:29] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 14:57:31] INFO [send_email: send_email.py, 37] 邮件发送完成！
+[2020-08-05 14:57:31] INFO [<module>: run_case.py, 14] ================================== 测试结束 ==================================
+[2020-08-05 15:15:55] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 15:21:37] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 15:35:25] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:35:25] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 11] 期望结果：成功
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":true,"code":200,"msg":"成功","successUrl":null,"failureUrl":null,"data":{"source":"jiabei","version":"4.4.0","userId":451,"loginName":"17328362330","userName":"ZWZ","mobile":"17328362330","email":"zengweizhuang@win-sky.com.cn","jobNo":"","companyId":4604,"company":"深圳市信安顺通汽车租赁有限公司","department":"市场运营部-深圳","post":"城市负责人","loginType":"0,1,2,3,4","roleName":"系统管理员","cityList":[{"serialNo":"3602","name":"景德镇市","type":0},{"serialNo":"4401","name":"广州市","type":0},{"serialNo":"4402","name":"韶关市","type":0},{"serialNo":"4403","name":"深圳市","type":0},{"serialNo":"4406","name":"佛山市","type":0},{"serialNo":"4407","name":"江门市","type":0},{"serialNo":"4408","name":"湛江市","type":0},{"serialNo":"4412","name":"肇庆市","type":0},{"serialNo":"4413","name":"惠州市","type":0},{"serialNo":"4416","name":"河源市","type":0}],"roleIds":["1"]}}
+[2020-08-05 15:35:25] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:35:25] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362332","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 11] 期望结果：用户不存在
+[2020-08-05 15:35:25] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1002,"msg":"用户不存在","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:35:25] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:35:26] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:35:26] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:35:26] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:35:26] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345679"}
+[2020-08-05 15:35:26] INFO [log_case_info: case_log.py, 11] 期望结果：用户密码错误
+[2020-08-05 15:35:26] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1004,"msg":"用户密码错误","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:35:36] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 15:35:36] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:35:37] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 11] 期望结果：成功
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":true,"code":200,"msg":"成功","successUrl":null,"failureUrl":null,"data":{"source":"jiabei","version":"4.4.0","userId":451,"loginName":"17328362330","userName":"ZWZ","mobile":"17328362330","email":"zengweizhuang@win-sky.com.cn","jobNo":"","companyId":4604,"company":"深圳市信安顺通汽车租赁有限公司","department":"市场运营部-深圳","post":"城市负责人","loginType":"0,1,2,3,4","roleName":"系统管理员","cityList":[{"serialNo":"3602","name":"景德镇市","type":0},{"serialNo":"4401","name":"广州市","type":0},{"serialNo":"4402","name":"韶关市","type":0},{"serialNo":"4403","name":"深圳市","type":0},{"serialNo":"4406","name":"佛山市","type":0},{"serialNo":"4407","name":"江门市","type":0},{"serialNo":"4408","name":"湛江市","type":0},{"serialNo":"4412","name":"肇庆市","type":0},{"serialNo":"4413","name":"惠州市","type":0},{"serialNo":"4416","name":"河源市","type":0}],"roleIds":["1"]}}
+[2020-08-05 15:35:37] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:35:37] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362332","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 11] 期望结果：用户不存在
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1002,"msg":"用户不存在","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:35:37] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:35:37] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345679"}
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 11] 期望结果：用户密码错误
+[2020-08-05 15:35:37] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1004,"msg":"用户密码错误","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:35:38] INFO [send_email: send_email.py, 36] 邮件发送完成！
+[2020-08-05 15:35:38] INFO [<module>: run_case.py, 14] ================================== 测试结束 ==================================
+[2020-08-05 15:39:47] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 15:39:48] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:39:48] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 11] 期望结果：成功
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":true,"code":200,"msg":"成功","successUrl":null,"failureUrl":null,"data":{"source":"jiabei","version":"4.4.0","userId":451,"loginName":"17328362330","userName":"ZWZ","mobile":"17328362330","email":"zengweizhuang@win-sky.com.cn","jobNo":"","companyId":4604,"company":"深圳市信安顺通汽车租赁有限公司","department":"市场运营部-深圳","post":"城市负责人","loginType":"0,1,2,3,4","roleName":"系统管理员","cityList":[{"serialNo":"3602","name":"景德镇市","type":0},{"serialNo":"4401","name":"广州市","type":0},{"serialNo":"4402","name":"韶关市","type":0},{"serialNo":"4403","name":"深圳市","type":0},{"serialNo":"4406","name":"佛山市","type":0},{"serialNo":"4407","name":"江门市","type":0},{"serialNo":"4408","name":"湛江市","type":0},{"serialNo":"4412","name":"肇庆市","type":0},{"serialNo":"4413","name":"惠州市","type":0},{"serialNo":"4416","name":"河源市","type":0}],"roleIds":["1"]}}
+[2020-08-05 15:39:48] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:39:48] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362332","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 11] 期望结果：用户不存在
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1002,"msg":"用户不存在","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:39:48] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:39:48] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345679"}
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 11] 期望结果：用户密码错误
+[2020-08-05 15:39:48] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1004,"msg":"用户密码错误","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:39:49] INFO [send_email: send_email.py, 36] 邮件发送完成！
+[2020-08-05 15:39:49] INFO [<module>: run_case.py, 14] ================================== 测试结束 ==================================
+[2020-08-05 15:41:02] INFO [<module>: run_case.py, 6] ================================== 测试开始 ==================================
+[2020-08-05 15:41:02] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:41:02] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 11] 期望结果：成功
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":true,"code":200,"msg":"成功","successUrl":null,"failureUrl":null,"data":{"source":"jiabei","version":"4.4.0","userId":451,"loginName":"17328362330","userName":"ZWZ","mobile":"17328362330","email":"zengweizhuang@win-sky.com.cn","jobNo":"","companyId":4604,"company":"深圳市信安顺通汽车租赁有限公司","department":"市场运营部-深圳","post":"城市负责人","loginType":"0,1,2,3,4","roleName":"系统管理员","cityList":[{"serialNo":"3602","name":"景德镇市","type":0},{"serialNo":"4401","name":"广州市","type":0},{"serialNo":"4402","name":"韶关市","type":0},{"serialNo":"4403","name":"深圳市","type":0},{"serialNo":"4406","name":"佛山市","type":0},{"serialNo":"4407","name":"江门市","type":0},{"serialNo":"4408","name":"湛江市","type":0},{"serialNo":"4412","name":"肇庆市","type":0},{"serialNo":"4413","name":"惠州市","type":0},{"serialNo":"4416","name":"河源市","type":0}],"roleIds":["1"]}}
+[2020-08-05 15:41:02] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:41:02] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345678"}
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 11] 期望结果：用户不存在
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":true,"code":200,"msg":"成功","successUrl":null,"failureUrl":null,"data":{"source":"jiabei","version":"4.4.0","userId":451,"loginName":"17328362330","userName":"ZWZ","mobile":"17328362330","email":"zengweizhuang@win-sky.com.cn","jobNo":"","companyId":4604,"company":"深圳市信安顺通汽车租赁有限公司","department":"市场运营部-深圳","post":"城市负责人","loginType":"0,1,2,3,4","roleName":"系统管理员","cityList":[{"serialNo":"3602","name":"景德镇市","type":0},{"serialNo":"4401","name":"广州市","type":0},{"serialNo":"4402","name":"韶关市","type":0},{"serialNo":"4403","name":"深圳市","type":0},{"serialNo":"4406","name":"佛山市","type":0},{"serialNo":"4407","name":"江门市","type":0},{"serialNo":"4408","name":"湛江市","type":0},{"serialNo":"4412","name":"肇庆市","type":0},{"serialNo":"4413","name":"惠州市","type":0},{"serialNo":"4416","name":"河源市","type":0}],"roleIds":["1"]}}
+[2020-08-05 15:41:02] DEBUG [_new_conn: connectionpool.py, 815] Starting new HTTPS connection (1): manager-dev.win-sky.com.cn:443
+[2020-08-05 15:41:02] DEBUG [_make_request: connectionpool.py, 396] https://manager-dev.win-sky.com.cn:443 "POST /api/lease/manager/login HTTP/1.1" 200 None
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 9] url：https://manager-dev.win-sky.com.cn/api/lease/manager/login
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 10] 请求参数：{"loginName":"17328362330","loginSource":"jiabei","password":"12345679"}
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 11] 期望结果：用户密码错误
+[2020-08-05 15:41:02] INFO [log_case_info: case_log.py, 12] 实际结果：{"success":false,"code":1004,"msg":"用户密码错误","successUrl":null,"failureUrl":null,"data":null}
+[2020-08-05 15:41:03] INFO [send_email: send_email.py, 36] 邮件发送完成！
+[2020-08-05 15:41:03] INFO [<module>: run_case.py, 14] ================================== 测试结束 ==================================
