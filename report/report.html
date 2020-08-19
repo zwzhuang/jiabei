@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Api Test</h1>
 <p class='attribute'><strong>测试人员 : </strong> 曾维状</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-08-05 15:41:02</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.164131</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 2，失败 1，通过率= 66.67%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-08-12 09:42:36</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.430802</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率= 100.00%</p>
 
 <p class='description'>测试描述</p>
 </div>
@@ -133,9 +133,9 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>通过率{ 66.67% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>通过率{ 100.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -156,11 +156,11 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='failClass warning'>
+<tr class='passClass warning'>
     <td>user.test_jiabei_user_login.TestUserLogin</td>
     <td class="text-center">3</td>
-    <td class="text-center">2</td>
-    <td class="text-center">1</td>
+    <td class="text-center">3</td>
+    <td class="text-center">0</td>
     <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
 </tr>
@@ -170,27 +170,9 @@ function html_escape(s) {
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='ft1_2' class='none'>
-    <td class='failCase'><div class='testcase'>test_user_not</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
-    <div id='div_ft1_2' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
-    <div id='div_ft1_2' class="collapse in">
-    <pre>
-    
-ft1_2: Traceback (most recent call last):
-  File "G:\PycharmProjects\jiabei\case\user\test_jiabei_user_login.py", line 51, in test_user_not
-    self.assertIn(expect_res,res.text)  # 断言
-AssertionError: '用户不存在' not found in '{"success":true,"code":200,"msg":"成功","successUrl":null,"failureUrl":null,"data":{"source":"jiabei","version":"4.4.0","userId":451,"loginName":"17328362330","userName":"ZWZ","mobile":"17328362330","email":"zengweizhuang@win-sky.com.cn","jobNo":"","companyId":4604,"company":"深圳市信安顺通汽车租赁有限公司","department":"市场运营部-深圳","post":"城市负责人","loginType":"0,1,2,3,4","roleName":"系统管理员","cityList":[{"serialNo":"3602","name":"景德镇市","type":0},{"serialNo":"4401","name":"广州市","type":0},{"serialNo":"4402","name":"韶关市","type":0},{"serialNo":"4403","name":"深圳市","type":0},{"serialNo":"4406","name":"佛山市","type":0},{"serialNo":"4407","name":"江门市","type":0},{"serialNo":"4408","name":"湛江市","type":0},{"serialNo":"4412","name":"肇庆市","type":0},{"serialNo":"4413","name":"惠州市","type":0},{"serialNo":"4416","name":"河源市","type":0}],"roleIds":["1"]}}'
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_not</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr id='pt1_3' class='hiddenRow'>
@@ -201,10 +183,10 @@ AssertionError: '用户不存在' not found in '{"success":true,"code":200,"msg"
 <tr id='total_row' class="text-center active">
     <td>总计</td>
     <td>3</td>
-    <td>2</td>
-    <td>1</td>
+    <td>3</td>
     <td>0</td>
-    <td>通过率：66.67%</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
 </tr>
 </table>
 
